@@ -4,7 +4,7 @@ public class Token {
 
     static String token(){
         
-        String tok = System.getenv("TOKEN")
+        String tok = System.getenv("TOKEN");
         return tok;
     }
 }
